@@ -1,0 +1,14 @@
+[alias]
+  aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
+	st = status
+
+[color]
+	ui = auto
+
+[core]
+  editor = code --wait
+
+# Allow local customizations in the .gitconfig_user and .gitconfig_local files
+[include]
+	path = ~/.gitconfig_user
+  path = ~/.gitconfig_local

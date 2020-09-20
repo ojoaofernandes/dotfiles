@@ -1,0 +1,16 @@
+- defaults:
+    link:
+        create: true
+        force: true
+        relink: true
+
+- clean: ['~', '~/.config/Code/User']
+
+- link:
+    ~/.config/Code/User/settings.json: vscode/settings.json
+    ~/.gitconfig: git/gitconfig
+    ~/.gitconfig_user: git/gitconfig_user
+    ~/.hyper.js: hyper/hyper.js
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
