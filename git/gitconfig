@@ -8,6 +8,9 @@
 [core]
   editor = code --wait
 
+[init]
+  defaultBranch = main
+
 # Allow local customizations in the .gitconfig_user and .gitconfig_local files
 [include]
 	path = ~/.gitconfig_user
