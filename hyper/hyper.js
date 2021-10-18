@@ -191,13 +191,13 @@ module.exports = {
       debug: false,
       hotkeys: {
         navigation: {
-          up: 'shift+up',
-          down: 'shift+down',
-          left: 'shift+left',
-          right: 'shift+right'
+          up: 'alt+up',
+          down: 'alt+down',
+          left: 'alt+left',
+          right: 'alt+right'
         },
-        jump_prefix: 'shift', // completed with 1-9 digits
-        permutation_modifier: 'shift', // Added to jump and navigation hotkeys for pane permutation
+        jump_prefix: 'alt', // completed with 1-9 digits
+        permutation_modifier: 'alt', // Added to jump and navigation hotkeys for pane permutation
         maximize: 'meta+enter'
       },
       showIndicators: false, // Show pane number
